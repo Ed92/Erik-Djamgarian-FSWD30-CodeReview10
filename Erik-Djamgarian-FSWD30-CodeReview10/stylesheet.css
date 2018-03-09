@@ -1,0 +1,50 @@
+body{
+        background-color:  rgba(0, 0, 0, 0.7);
+      }
+.navbar-dark .navbar-brand{
+  color: #white;
+}.navbar-dark .navbar-brand:hover{
+  color: #black;
+}
+.card{
+height: 600px;
+  margin: 35px 20px 20px 20px ;
+  text-align: center;
+}
+.card img{
+ height: 280px;
+}.card:hover {
+  -ms-transform: scale(1.1,1.1); /* IE 9 */
+    -webkit-transform: scale(1.1,1.1); /* Safari */
+    transform: scale(1.1,1.1); /* Standard syntax */
+}
+.card .card-text{
+  max-height: 100px;
+}
+.nav-tabs{
+  width: 40%;
+  margin: 0 auto;
+}
+#myTab{
+  padding: 5px;
+  border:none;
+}
+.nav-tabs .nav-link{
+  margin-left: 25px;
+  text-align: center;
+color: black;
+font-size: 23px;
+}.nav-tabs .nav-link:hover{
+  border:none;
+  border-bottom: 3px solid red;
+  color: blue;
+}
+center{
+  width: 100%
+}
+span{
+  line-height: 1.2;
+}
+.jumbotron{
+  margin-bottom: 0rem;
+}
